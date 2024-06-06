@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:ignore="MissingClass">
+
+    <ImageView
+        android:id="@+id/btnmascara2"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:contentDescription="TODO"
+        android:onClick="detMascara2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toEndOf="@+id/btnmascara1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="ContentDescription,HardcodedText,RtlHardcoded,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btnC2"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="center"
+        android:text="Carrito"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara2"
+        app:layout_constraintVertical_bias="0.466"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnC6"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Carrito"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnD6"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara6"
+        app:layout_constraintVertical_bias="0.048"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/btnmascara4"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="TODO"
+        android:onClick="detMascara4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toEndOf="@+id/btnmascara3"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara2"
+        app:layout_constraintVertical_bias="0.002"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/btnmascara3"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="TODO"
+        android:onClick="detMascara3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,HardcodedText" />
+
+    <Button
+        android:id="@+id/btnC5"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Carrito"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnD5"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara5"
+        app:layout_constraintVertical_bias="0.048"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnD3"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:gravity="center"
+        android:text="DETALLES"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/btnmascara1"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="40dp"
+        android:contentDescription="TODO"
+        android:onClick="detMascara1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/masc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,HardcodedText" />
+
+    <Button
+        android:id="@+id/btnC1"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Carrito"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara3"
+        app:layout_constraintStart_toEndOf="@+id/btnD1"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara1"
+        app:layout_constraintVertical_bias="0.466"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/btnmascara5"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="TODO"
+        android:onClick="detMascara5"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,HardcodedText" />
+
+    <Button
+        android:id="@+id/btnD2"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="DETALLES"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara4"
+        app:layout_constraintEnd_toStartOf="@+id/btnC2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnC1"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara2"
+        app:layout_constraintVertical_bias="0.466"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnD6"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="212dp"
+        android:gravity="center"
+        android:text="DETALLES"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara6"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnC3"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Carrito"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara5"
+        app:layout_constraintStart_toEndOf="@+id/btnD3"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnD1"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:gravity="center"
+        android:onClick="detMascara1"
+        android:text="Detalles"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara1"
+        app:layout_constraintVertical_bias="0.466"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnC4"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Carrito"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnD4"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnD5"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:gravity="center"
+        android:text="DETALLES"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara5"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnD4"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="212dp"
+        android:gravity="center"
+        android:text="DETALLES"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmascara6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/btnmascara6"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="TODO"
+        android:onClick="detMascara6"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toEndOf="@+id/btnmascara5"
+        app:layout_constraintTop_toBottomOf="@+id/btnmascara4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,HardcodedText,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="309dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Professionalisimo Masquerade "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btnCarrito"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="carrito"
+        android:scaleType="centerInside"
+        android:src="@drawable/c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

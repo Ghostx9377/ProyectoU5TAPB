@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondreg"
+    tools:context=".Actividad2Re">
+
+    <TextView
+        android:id="@+id/lblContraseña"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Contraseña:"
+        android:textColor="#263238"
+        android:textColorHighlight="#DCDCDC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese email"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CFD8DC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblEmail"
+        tools:ignore="HardcodedText,MissingConstraints,TextFields" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese apellido"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C8C8C8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblApellido"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lblApellido"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Apellido:"
+        android:textColor="#DBE0E4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Nombre:"
+        android:textColor="#E3E3E3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etiReg"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Email:"
+        android:textColor="#D5CFCF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellido"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese nombre"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ECECEC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombre"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/etiReg"
+        android:layout_width="409dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="REGISTRO CLIENTES"
+        android:textColor="#F3F3F3"
+        android:textColorHighlight="#DDDDDD"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:background="#67DEFE"
+        android:onClick="registroClientes"
+        android:text="Registrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContraseña"
+        app:layout_constraintVertical_bias="0.537"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="274dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#3E2723"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblContraseña"
+        tools:ignore="HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
