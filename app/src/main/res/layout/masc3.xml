@@ -50,7 +50,7 @@
         android:id="@+id/imageView"
         android:layout_width="351dp"
         android:layout_height="311dp"
-        android:background="@drawable/m3"
+        android:background="@drawable/zapa3"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"

@@ -52,7 +52,7 @@
         android:layout_width="351dp"
         android:layout_height="311dp"
         android:layout_marginTop="44dp"
-        android:background="@drawable/masc"
+        android:background="@drawable/zapa1"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

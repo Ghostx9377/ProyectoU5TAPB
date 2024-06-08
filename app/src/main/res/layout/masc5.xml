@@ -53,7 +53,7 @@
         android:id="@+id/imageView"
         android:layout_width="351dp"
         android:layout_height="311dp"
-        android:background="@drawable/m5"
+        android:background="@drawable/zapa5"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

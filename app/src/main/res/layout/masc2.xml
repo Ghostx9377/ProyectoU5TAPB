@@ -54,7 +54,7 @@
         android:layout_width="351dp"
         android:layout_height="311dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/m2"
+        android:background="@drawable/zapa2"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
