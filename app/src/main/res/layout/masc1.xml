@@ -127,6 +127,7 @@
         android:id="@+id/buttonback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#1098E1"
         android:onClick="regM1"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
