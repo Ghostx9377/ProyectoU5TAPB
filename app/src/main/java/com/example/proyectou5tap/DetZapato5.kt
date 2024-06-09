@@ -5,18 +5,16 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.ComponentActivity
 
-class DetMascara1 : ComponentActivity() {
+class DetZapato5 : ComponentActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.masc1)
+        setContentView(R.layout.masc5)
     }
 
-    fun regM1(view : View){
-
+    fun regM5(view : View){
         val intent = Intent(this,Productos::class.java)
         startActivity(intent)
-
     }
 
 }
