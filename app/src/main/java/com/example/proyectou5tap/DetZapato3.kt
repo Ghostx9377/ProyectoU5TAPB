@@ -1,4 +1,4 @@
-package com.example.mascaras
+package com.example.proyectou5tap
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,7 +9,7 @@ class DetZapato3 : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.masc3)
+        setContentView(R.layout.det_zapa3)
     }
 
     fun regM3(view : View){
