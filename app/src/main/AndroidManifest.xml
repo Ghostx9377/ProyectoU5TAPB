@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ProyectoU5TAP"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Actividad2Re"
             android:exported="false"
             android:theme="@style/Theme.ProyectoU5TAP" />
         <activity
