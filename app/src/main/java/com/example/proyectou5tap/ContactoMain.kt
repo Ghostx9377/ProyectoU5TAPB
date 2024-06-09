@@ -1,4 +1,4 @@
-package com.example.mascaras
+package com.example.proyectou5tap
 
 import android.content.Intent
 import android.net.Uri

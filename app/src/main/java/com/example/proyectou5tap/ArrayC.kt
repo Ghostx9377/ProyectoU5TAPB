@@ -1,4 +1,4 @@
-package com.example.mascaras
+package com.example.proyectou5tap
 
 
 object arraySingelton {

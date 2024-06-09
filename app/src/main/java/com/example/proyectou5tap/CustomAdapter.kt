@@ -7,7 +7,7 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mascaras.R
+import com.example.proyectou5tap.R
 
 interface OnItemClickListener {
     fun onItemDeleteClick(position: Int)
