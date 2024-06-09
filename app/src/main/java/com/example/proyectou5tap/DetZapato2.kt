@@ -1,20 +1,22 @@
-package com.example.mascaras
+package com.example.proyectou5tap
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.ComponentActivity
 
-class DetMascara6 : ComponentActivity() {
+class DetZapato2 : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.masc6)
+        setContentView(R.layout.det_zapa2)
     }
 
-    fun regM6(view : View){
+    fun regM2(view : View){
+
         val intent = Intent(this,Productos::class.java)
         startActivity(intent)
+
     }
 
 }
