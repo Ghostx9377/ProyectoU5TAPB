@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6000000">
+    android:background="#FAFAFA">
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tallas"
-        android:textColor="#2196F3"
+        android:textColor="#1098E1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -40,69 +40,67 @@
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Tenis para mujer Vikky v3 Metallic Shine"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.534" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="134dp"
         android:layout_height="38dp"
         android:text="$1599.00  MX"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.616" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Información"
-        android:textColor="#2196F3"
+        android:textColor="#1098E1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664" />
+        app:layout_constraintVertical_bias="0.682" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="361dp"
-        android:layout_height="68dp"
-        android:layout_marginEnd="16dp"
-        android:text="Los tenis Vikky han sido rediseñados para ofrecerte un look más moderno y fresco, pero siguen conservando su ADN de inspiración en las canchas de básquetbol. La nueva versión de este clásico atemporal presenta detalles de la marca PUMA, cuero envejecido, suave y liso, y una plantilla acolchada. Podrás caminar durante todo el día con perfecta comodidad."
-        android:textColor="#FFFFFF"
+        android:layout_width="355dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="28dp"
+        android:text="Los tenis Vikky han sido rediseñados para ofrecerte un look más moderno y fresco, pero siguen conservando su ADN de inspiración en las canchas de básquetbol. La nueva versión de este clásico atemporal presenta detalles de la marca PUMA, cuero envejecido, suave y liso, y una plantilla acolchada."
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.797" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="22 - 27.5"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <Button
         android:id="@+id/buttonback"

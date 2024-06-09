@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6000000">
+    android:background="#FAFAFA">
 
 
     <TextView
@@ -14,11 +14,11 @@
         android:text="Tallas"
         android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.86" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -40,7 +40,7 @@
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Tenis Suede MX SPORTSWEAR"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,62 +48,61 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.52" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="134dp"
+        android:layout_width="155dp"
         android:layout_height="38dp"
-        android:text="$2199.00  MX"
-        android:textColor="#FFFFFF"
+        android:text="$2199.00 MXN"
+        android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63" />
+        app:layout_constraintVertical_bias="0.606" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Información"
-        android:textColor="#2196F3"
+        android:textColor="#1098E1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
+        app:layout_constraintVertical_bias="0.665" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="361dp"
-        android:layout_height="68dp"
-        android:text="¡Para mi gente! La colorida colección de PUMA MX SPORTSWEAR está inspirada en nuestras raíces mexicanas y todo lo relacionados con los coleres vivos de nuestros pueblos y barrios mágicos reconocidos como principales lugares para conservar la comida mexicana, la cultura y nuestras tradiciones. Originalmente representaba la creación, vida y nuestro camino al “paraíso”. Hoy en día se pueden encontrar diferentes temas en la colección MX SPORTSWEAR."
-        android:textColor="#FFFFFF"
+        android:layout_width="357dp"
+        android:layout_height="101dp"
+        android:text="¡Para mi gente! La colorida colección de PUMA MX SPORTSWEAR está inspirada en nuestras raíces mexicanas y todo lo relacionados con los coleres vivos de nuestros pueblos y barrios mágicos reconocidos como principales lugares para conservar la comida mexicana, la cultura y nuestras tradiciones."
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.782" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="22 - 30"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817" />
+        app:layout_constraintVertical_bias="0.859" />
 
     <Button
         android:id="@+id/buttonback"

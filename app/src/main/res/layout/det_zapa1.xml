@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6000000"
+    android:background="#FAFAFA"
     android:onClick="regM1">
 
 
@@ -13,13 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tallas"
-        android:textColor="#2196F3"
+        android:textColor="#1098E1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814" />
+        app:layout_constraintVertical_bias="0.86" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -43,7 +43,7 @@
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Tenis Suede Classic XXI Hombre"
-        android:textColor="#FFFFFF"
+        android:textColor="#020101"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,11 +55,11 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="134dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="16dp"
-        android:text="$1999.00  MX"
-        android:textColor="#FFFFFF"
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:text="$1999.00 MXN"
+        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.057"
@@ -73,44 +73,44 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="148dp"
         android:text="Información"
-        android:textColor="#2196F3"
+        android:textColor="#1098E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.665" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="361dp"
         android:layout_height="68dp"
         android:layout_marginStart="20dp"
-        android:text="Con su enorme impacto en la cultura del calzado, los tenis más icónicos de PUMA aparecieron por primera vez en 1968 y han sido usado por íconos de todas las generaciones desde entonces. Los Suede Classic XXI presentan una parte superior de gamuza en su totalidad junto con algunos toques modernos para brindar una mejor calidad y sensación en general para un grande de todos los tiempos."
-        android:textColor="#FFFFFF"
+        android:text="Con su enorme impacto en la cultura del calzado, los tenis más icónicos de PUMA aparecieron por primera vez en 1968 y han sido usado por íconos de todas las generaciones desde entonces."
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.787" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="22 - 31"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintHorizontal_bias="0.211"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813" />
+        app:layout_constraintVertical_bias="0.859" />
 
     <Button
         android:id="@+id/buttonback"
